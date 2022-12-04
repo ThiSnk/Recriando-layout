@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background-color: #2F2E41;
+  
+
+}
+
+.page {
+  width: 1100px;
+  margin: 71px auto 0 ;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 51px;
+  
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 64px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  margin-top: 51px;
+  margin-bottom: 157px;
+  gap: 77px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 40px;
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+}
+
+span {
+  color: #00BFA6;
+}
+
+section p {
+  
+  font-size: 16px;
+  color: #C2C2C2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#hero {
+  margin: auto;
+  width: 400px;
+}
+
+.text {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#footer {
+  margin: auto;
+  color: #FFFFFF;
+  line-height: 28px;
+  font-size: 14px; 
+  margin-bottom: 23px;
+  
+}
+
+#footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+  
+ 
+ }
+
+ #contato {
+  width: 1100px;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+ }
+
+#line {
+  margin: auto;
+  margin-bottom: 27px;
+  width: 570px;
+  height: 0;
+  border-bottom: 1px solid #00BFA6;
+  
+}
+
+#cadeado {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
